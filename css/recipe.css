@@ -1,0 +1,65 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+body {
+	
+}
+.block {
+	width: 100vw;
+	height: 100vh;
+	background: url('../images/3.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	transition: 2s ease-in-out;
+
+	animation-name: animation;
+	animation-duration: 4s;
+	animation-direction: alternate-reverse;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@keyframes animation {
+	0%{
+       background: url(../images/3.jpg);
+       background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	20%{
+		background: url(../images/4.jpg);
+		background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	40%{
+		background: url(../images/5.jpg);
+		background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	60%{
+		background: url(../images/6.jpg);
+		background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	80%{
+		background: url(../images/7.jpg);
+		background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	100%{
+       background: url(../images/3.jpg);
+       background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+	
+}
